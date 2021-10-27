@@ -6,7 +6,7 @@ $ seqtk sample -s117 oil_R1.fastq 5000000 > sub_r1.fastq
 $ seqtk sample -s117 oil_R2.fastq 5000000 > sub_r2.fastq
 $ seqtk sample -s117 oilMP_S4_L001_R1_001.fastq 1500000 > mp_r1.fastq
 $ seqtk sample -s117 oilMP_S4_L001_R2_001.fastq 1500000 > mp_r2.fastq
-$ mkdir fastqc
+$ mkdir fastqc 
 $ mkdir multiqc
 $ ls sub_r* mp_r* | xargs -tI{} fastqc -o fastqc {}
 $ multiqc -o multiqc fastqc
