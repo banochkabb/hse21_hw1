@@ -18,3 +18,14 @@
     $ platanus scaffold -c contig.fa -IP1 sub_r1.fastq.trimmed sub_r2.fastq.trimmed -OP2 mp_r1.fastq.int_trimmed mp_r2.fastq.int_trimmed 2> scaffold.log
     $ platanus gap_close -c scaffold.fa -IP1 sub_r1.fastq.trimmed sub_r2.fastq.trimmed -OP2 mp_r1.fastq.int_trimmed mp_r2.fastq.int_trimmed 2> gapclose.log
     $ rsync -charvz vierinova@bioinf:/home/vierinova/hw1/multiqc'''
+    
+до:
+![](images/screenshot_20_47.jpeg)
+![](images/screenshot_20_48_01.jpeg)
+![](images/screenshot_20_48_10.jpeg)
+
+
+после:
+![](images/screenshot_21_10_42.jpeg)
+![](images/screenshot_21_10_48.jpeg)
+![](images/screenshot_21_10_53.jpeg)
